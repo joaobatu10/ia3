@@ -113,12 +113,9 @@ git push -u origin master
 Integrantes da equipe
 ---------------------
 
-- Joao Vitor — cadorbatujoaovitor@gmail.com
-
-Adicione abaixo os demais integrantes (nome e e-mail):
-
-- Nome do Integrante 2 — email@exemplo.com
-- Nome do Integrante 3 — email@exemplo.com
+- Joao Vitor Batu — cadorbatujoaovitor@gmail.com
+- Gabriel Kras
+- Vitor Kokkenen
 
 Contribuição
 ------------
