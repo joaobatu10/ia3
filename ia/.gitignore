@@ -1,0 +1,11 @@
+# Dependências
+node_modules/
+venv/
+
+# Configurações locais
+.vscode/
+.env
+
+# Cache
+__pycache__/
+dist/

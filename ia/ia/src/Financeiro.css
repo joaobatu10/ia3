@@ -1,0 +1,68 @@
+:root {
+  --primary: #005EFF;
+  --background: #f4f6fc;
+  --white: #fff;
+  --text: #1e1e2f;
+  --gray: #777;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --radius: 10px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.central-container {
+  background: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.central-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary);
+  color: var(--white);
+  padding: 1rem 2rem;
+}
+
+.central-header .header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.central-header .logo {
+  width: 100px;
+}
+
+.central-main {
+  padding: 2rem;
+  flex: 1;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1.5rem;
+}
+
+.chart-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.chart-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.central-footer {
+  background: var(--primary);
+  color: var(--white);
+  text-align: center;
+  padding: 0.8rem;
+}
